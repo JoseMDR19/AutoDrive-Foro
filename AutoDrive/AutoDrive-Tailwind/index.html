@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoDrive - Tailwind</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- NAVBAR -->
+    <nav class="bg-gray-900 text-white p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+
+            <h1 class="text-2xl font-bold">
+                Auto<span class="text-red-500">Drive</span>
+            </h1>
+
+            <div class="flex gap-5">
+                <a href="#inicio" class="hover:text-red-400">
+                    Inicio
+                </a>
+
+                <a href="#autos" class="hover:text-red-400">
+                    Autos
+                </a>
+
+                <a href="#contacto" class="hover:text-red-400">
+                    Contacto
+                </a>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- INICIO -->
+    <section id="inicio" class="text-center py-16 bg-white">
+
+        <h2 class="text-4xl font-bold mb-4">
+            Encuentra tu auto ideal
+        </h2>
+
+        <p class="text-gray-600 mb-6">
+            Conoce nuestra selección de vehículos.
+        </p>
+
+        <a href="#autos"
+           class="bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700">
+            Ver vehículos
+        </a>
+
+    </section>
+
+
+    <!-- AUTOS -->
+    <section id="autos" class="max-w-6xl mx-auto p-8">
+
+        <h2 class="text-3xl font-bold text-center mb-8">
+            Nuestros vehículos
+        </h2>
+
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+
+            <!-- AUTO 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+
+                <img
+                    src="imagenes/photo-1553440569-bcc63803a83d.avif"
+                    alt="BMW"
+                    class="w-full h-56 object-cover object-center">
+
+                <div class="p-5">
+
+                    <h3 class="text-xl font-bold mb-2">
+                        BMW M4
+                    </h3>
+
+                    <p class="text-gray-600 mb-4">
+                        Vehículo deportivo con diseño moderno
+                        y gran rendimiento.
+                    </p>
+
+                    <p class="font-bold text-lg mb-4">
+                        $410.000.000
+                    </p>
+
+                    <button class="bg-red-600 text-white px-4 py-2 rounded">
+                        Ver más
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- AUTO 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+
+                <img
+                    src="imagenes/photo-1504215680853-026ed2a45def.avif"
+                    alt="Mustang"
+                    class="w-full h-56 object-cover object-center">
+
+                <div class="p-5">
+
+                    <h3 class="text-xl font-bold mb-2">
+                        Ford Mustang
+                    </h3>
+
+                    <p class="text-gray-600 mb-4">
+                        Un automóvil deportivo con potencia
+                        y diseño clásico.
+                    </p>
+
+                    <p class="font-bold text-lg mb-4">
+                        $280.000.000
+                    </p>
+
+                    <button class="bg-red-600 text-white px-4 py-2 rounded">
+                        Ver más
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- AUTO 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+
+                <img
+                    src="imagenes/photo-1503376780353-7e6692767b70.avif"
+                    alt="Porsche"
+                    class="w-full h-56 object-cover object-center">
+
+                <div class="p-5">
+
+                    <h3 class="text-xl font-bold mb-2">
+                        Porsche 911
+                    </h3>
+
+                    <p class="text-gray-600 mb-4">
+                        Elegancia, tecnología y alto rendimiento.
+                    </p>
+
+                    <p class="font-bold text-lg mb-4">
+                        $650.000.000
+                    </p>
+
+                    <button class="bg-red-600 text-white px-4 py-2 rounded">
+                        Ver más
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="bg-gray-900 text-white text-center p-10">
+
+        <h2 class="text-3xl font-bold mb-4">
+            Contáctanos
+        </h2>
+
+        <p>
+            ¿Quieres conocer alguno de nuestros vehículos?
+        </p>
+
+        <button class="bg-red-600 px-6 py-2 rounded mt-4">
+            Contactar
+        </button>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-black text-gray-400 text-center p-5">
+
+        <p>
+            © 2026 AutoDrive - Proyecto académico
+        </p>
+
+    </footer>
+
+</body>
+</html>
